@@ -45,7 +45,7 @@ function formatDuration(months: number): string {
   return parts.join(" ");
 }
 
-function groupByCompany(work: WorkEntry[]): CompanyGroup[] {
+function groupByCompany(work: readonly WorkEntry[]): CompanyGroup[] {
   const map = new Map<string, CompanyGroup>();
   for (const entry of work) {
     if (!map.has(entry.company)) {
