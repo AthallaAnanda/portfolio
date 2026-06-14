@@ -196,7 +196,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/projects/pinjeminaja.mp4",
     },
     {
       title: "PsyTrack (AI Early Instability Detection for Mental Health)",
@@ -220,7 +220,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/projects/psytrack.mp4",
     },
     {
       title: "BasdatFood (Online Food Delivery Platform)",
@@ -237,7 +237,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/basdatfood.jpg",
       video: "",
     },
     {
@@ -263,7 +263,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/projects/vestia.gif",
       video: "",
     },
     {
@@ -282,7 +282,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/projects/cookorbecooked.mp4",
     },
     {
       title: "DepoSight (Smart Analytics System for Market Insights)",

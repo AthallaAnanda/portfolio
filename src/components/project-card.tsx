@@ -75,6 +75,7 @@ export function ProjectCard({
               loop
               muted
               playsInline
+              preload="none"
               className="w-full h-48 object-cover"
             />
           ) : image ? (
