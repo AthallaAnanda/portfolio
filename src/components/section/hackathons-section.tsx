@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import React from "react";
 import { Badge } from "@/components/ui/badge";
 import Link from "next/link";
 import { DATA } from "@/data/resume";
@@ -54,7 +55,7 @@ export default function HackathonsSection() {
                 )}
                 {award.links && award.links.length > 0 && (
                   <div className="mt-1 flex flex-row flex-wrap items-start gap-2">
-                    {award.links.map((link, idx) => (
+                    {(award.links as { href: string; icon: React.ReactNode; title: string }[]).map((link, idx) => (
                       <Link
                         href={link.href}
                         key={idx}
